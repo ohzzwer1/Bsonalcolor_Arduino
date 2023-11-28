@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+body {
+    font-family: 'Pretendard';
+    text-align: center;
+    margin: 0;
+}
+#logo {
+    margin-top: 5vh;
+    width: 100vw;
+}
+#brain {
+    margin-top: -60px;
+    width: 10vw;
+}
+.explain-backdiv {
+    width: 70vw;
+    height: 458px;
+    border-radius: 229px;
+    background: #262626;
+    margin: auto;
+    margin-top: 15vh;
+    text-align: center;
+    color: white;
+}
+.first-line {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+    font-size: 30px;
+}
+.bold {
+    font-weight: 700;
+    font-size: 45px;
+    margin-right: 2px;
+}
+.explain-line {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+.pink {
+    color: #F4A3BF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.how-title {
+    color: #262626;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 200px;
+}
+#how-use {
+    margin: auto;
+    width: 50vw;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+.text {
+    color: #262626;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.inputname {
+    width: 447px;
+    height: 65px;
+    border-radius: 93.5px;
+    border: 1px solid #BBB;
+    background: #FEFCFC;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inputname::placeholder {
+    color: #BBB;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+button {
+    width: 312px;
+    height: 95px;
+    border-radius: 63.5px;
+    background: #262626;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+    border: none;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background: #262626;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ohzz {
+    color: #FEFEFE;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+.cr {
+    color: #929292;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+u {
+    color: #FEFEFE;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.758px;
+    text-decoration-line: underline;
+}

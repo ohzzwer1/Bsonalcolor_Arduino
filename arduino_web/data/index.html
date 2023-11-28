@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>검사 시작 알림</title>
+
+  <img class="vector" src='https://ifh.cc/g/V03ldD.png' alt="벡터 이미지" title="배경" />
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="margin:0">
+  <section>
+    <div class="container">
+      <h1><span id="user"></span>님의 브스널컬러 검사를 시작합니다.</h1><br> 
+      
+  </section>
+  <section>
+    <div class="container2">
+      <p>여러 색의 방 사진이 각각 20초 동안 제공됩니다. <br></p>
+      <p>사진에 집중해주세요.</p>
+  </section>
+
+  <img class="layer" src='https://ifh.cc/g/Qk2hSQ.png' alt="레이어 이미지" title="배경" />
+  
+
+</body>
+
+<script>
+    setTimeout('move_page()', 8000); //8초후에 안내문구를 보여주고 해당 화면에서 move_page로 이동하는 함수실행
+  
+    function move_page(){
+    location.href="count_page.html"  // 페이지 이동
+    }
+
+    document.getElementById("user").innerHTML=localStorage.getItem('name');
+  
+  </script>
+</html>
+
